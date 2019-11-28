@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.main {
+	max-width: 50rem;
+	margin: 0 auto;
+	padding: 2em;
+}
+
+ul li a {
+	color: #eb4236;
+	text-decoration: none;
+}
+
+pre {
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
