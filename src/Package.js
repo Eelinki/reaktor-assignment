@@ -3,14 +3,25 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 class Package extends React.Component {
   componentDidMount() {
-    document.title = 'Packages - ' + this.props.p.Package;
+    if(this.props.p != null)
+      document.title = 'Packages - ' + this.props.p.Package;
   }
 
   componentDidUpdate() {
-    document.title = 'Packages - ' + this.props.p.Package;
+    if(this.props.p != null)
+     document.title = 'Packages - ' + this.props.p.Package;
   }
 
   render() {
+    if(this.props.p == null) {
+      return (
+        <div>
+          <p>Package not installed</p>
+
+          <Link to={'/'}>Go back</Link>
+        </div>
+      );
+    }
     return (
       <div>
         <h1>{this.props.p.Package}</h1>
