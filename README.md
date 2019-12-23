@@ -1,5 +1,5 @@
 # Reaktor pre-assignment submission
-This is my take take on [Reaktor's pre-assignment for junior dev positions](https://www.reaktor.com/junior-dev-assignment/).
+This is my take on [Reaktor's pre-assignment for junior dev positions](https://www.reaktor.com/junior-dev-assignment/).
 
 You can see it in action at https://reaktor-assignment.eelinki.now.sh
 
